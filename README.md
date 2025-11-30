@@ -1,11 +1,21 @@
 # Agentic Council System
 
-A beautiful CLI-based multi-agent council system that uses 4 specialized Ollama agents to analyze problems through parallel responses, natural group chat discussions, and weighted synthesis.
+**A fully free, open-source AI council system** built with **LangChain** and **Ollama**. This beautiful CLI-based multi-agent system uses 4 specialized AI agents to analyze problems through parallel responses, natural group chat discussions, and weighted synthesis - **completely free, no API costs, runs entirely locally**.
 
 ![Agentic Council System Demo](Untitled%20design.gif)
 
+## 🆓 100% Free & Open Source
+
+- ✅ **No API costs** - Runs entirely on your local machine with Ollama
+- ✅ **No cloud dependencies** - All processing happens locally
+- ✅ **Open source** - MIT licensed, fully customizable
+- ✅ **Privacy-first** - Your data never leaves your machine
+- ✅ **Powered by LangChain** - Industry-standard AI framework
+- ✅ **Powered by Ollama** - Free, local LLM inference
+
 ## 🎯 Features
 
+- 🆓 **100% Free** - No API costs, runs entirely locally with Ollama
 - 🎨 **Beautiful CLI** with rich formatting and colors
 - 💬 **Natural group chat** conversations between agents
 - 🏷️ **Tag agents** with @mentions for focused debates
@@ -13,6 +23,8 @@ A beautiful CLI-based multi-agent council system that uses 4 specialized Ollama 
 - 🔍 **Comprehensive synthesis** analysis
 - 🚀 **Parallel agent processing** for speed
 - 📊 **Structured output** with agreements, conflicts, and blind spots
+- 🔒 **Privacy-first** - All data stays on your machine
+- 🛠️ **Built with LangChain** - Industry-standard AI framework
 
 ## 🏗️ Architecture
 
@@ -28,25 +40,29 @@ The system consists of 4 specialized agents, each with a distinct persona and th
 ### Prerequisites
 
 1. **Python 3.8+** installed
-2. **Ollama** installed and running:
+2. **Ollama** (free, local LLM runtime) - Download from [ollama.ai](https://ollama.ai)
    ```bash
+   # Install Ollama, then start it:
    ollama serve
    ```
 
-3. **Pull required models:**
+3. **Pull required models (all free):**
    ```bash
+   # These models run entirely locally - no API costs!
    ollama pull gpt-oss:120b-cloud
    ollama pull glm-4.6:cloud
    ollama pull kimi-k2-thinking:cloud
    ollama pull deepseek-v3.1:671b-cloud
    ```
+   
+   **Note:** Model downloads are free. They run locally on your machine.
 
 ### Install from Source
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/agentic-council.git
-cd agentic-council
+git clone https://github.com/Hrishikeshgupta2002/AI-Council.git
+cd AI-Council
 
 # Install dependencies
 pip install -r requirements.txt
@@ -148,8 +164,20 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 💡 Why This is Free
+
+This project is **completely free** because:
+
+- **Ollama** provides free, local LLM inference - no API costs
+- **LangChain** is an open-source framework - no licensing fees
+- **All processing is local** - no cloud services or subscriptions needed
+- **Open source** - MIT licensed, you own the code
+
+Unlike commercial AI services that charge per API call, this system runs entirely on your hardware using free, open-source models.
+
 ## 🙏 Acknowledgments
 
-- Built with [LangChain](https://github.com/langchain-ai/langchain)
-- Powered by [Ollama](https://ollama.ai/)
-- Beautiful CLI with [Rich](https://github.com/Textualize/rich)
+- Built with [LangChain](https://github.com/langchain-ai/langchain) - Open-source AI framework
+- Powered by [Ollama](https://ollama.ai/) - Free, local LLM inference
+- Beautiful CLI with [Rich](https://github.com/Textualize/rich) - Terminal formatting library
+- All models are free and run locally - no API costs ever!
